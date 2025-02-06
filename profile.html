@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sam's Profile</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f2f5;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        main {
+            padding: 20px;
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+        main:hover {
+            transform: scale(1.02);
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        .emoji {
+            font-size: 1.5em;
+            margin-right: 10px;
+        }
+        .profile-text {
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .profile-image {
+            display: block;
+            margin: 0 auto 20px;
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+        .profile-image:hover {
+            transform: rotate(360deg);
+        }
+        .profile-text span {
+            display: inline-block;
+            transition: transform 0.3s ease-in-out;
+        }
+        .profile-text span:hover {
+            transform: scale(1.2);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sam's Profile</h1>
+    </header>
+    <main>
+        <img src="profile-image.jpg" alt="Profile Image" class="profile-image">
+        <section>
+            <p class="profile-text"><span class="emoji">👋</span> Hi, I’m Sam aka @heisenberg-alt, the copilot for your team!</p>
+            <p class="profile-text"><span class="emoji">👀</span> I’m interested in Data & AI, CosmosDB, GPUs, scaling/migrating systems!</p>
+            <p class="profile-text"><span class="emoji">🌱</span> I’m currently learning to build an accelerator for Feedback Analysis.</p>
+            <p class="profile-text"><span class="emoji">💞️</span> I’m looking to collaborate on innovative projects in the Data/AI realm</p>
+            <p class="profile-text"><span class="emoji">📫</span> How to reach me - &lt;47°22′28″N 08°32′28″E&gt;</p>
+            <p class="profile-text"><span class="emoji">😄</span> Spirit-animal: Cat 🐈‍⬛🐈🐈‍⬛</p>
+            <p class="profile-text"><span class="emoji">⚡</span> Fun fact: None, here for work!</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Sam. All rights reserved.</p>
+    </footer>
+</body>
+</html>
