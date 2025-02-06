@@ -5,6 +5,10 @@
 - 📫 How to reach me - <47°22′28″N 08°32′28″E>
 - 😄 Spirit-animal: Cat 🐈‍⬛🐈🐈‍⬛
 - ⚡ Fun fact: None, here for work!
+
+
+![feedback-analyzer-1](https://github.com/user-attachments/assets/7859994b-63fd-45e6-830f-20de436f8c6f)
+
   
 <!---
 heisenberg-alt/heisenberg-alt is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
