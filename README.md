@@ -20,6 +20,11 @@ sameer@github:~$ whoami
 
 [Website](https://sameerankalgi.com) · [LinkedIn](https://www.linkedin.com/in/sameerankalgi) · [Email](mailto:sameerankalgi@gmail.com)
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=15&duration=3200&pause=900&color=84E98A&center=true&vCenter=true&width=520&height=26&lines=agents+in+production;eval-first+engineering;AI+safety+as+engineering+practice;the+terminal+never+closed." />
+  <img alt="" src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=15&duration=3200&pause=900&color=3D6B35&center=true&vCenter=true&width=520&height=26&lines=agents+in+production;eval-first+engineering;AI+safety+as+engineering+practice;the+terminal+never+closed." />
+</picture>
+
 </div>
 
 ---
@@ -66,11 +71,12 @@ sameer@github:~$ echo $LOCATION
 
 📍 Zürich, Switzerland `47°22′28″N 08°32′28″E` — hackathon freak, espresso-powered, spirit animal: 🐈‍⬛
 
-```console
-sameer@github:~$ █
-```
-
 <div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=14&duration=2400&pause=1400&color=84E98A&center=true&vCenter=true&width=440&height=24&lines=sameer%40github%3A~%24+help;sameer%40github%3A~%24+open+projects;sameer%40github%3A~%24+matrix" />
+  <img alt="sameer@github:~$" src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=14&duration=2400&pause=1400&color=3D6B35&center=true&vCenter=true&width=440&height=24&lines=sameer%40github%3A~%24+help;sameer%40github%3A~%24+open+projects;sameer%40github%3A~%24+matrix" />
+</picture>
 
 *My site has a working terminal — type `help` at [sameerankalgi.com](https://sameerankalgi.com)*
 
