@@ -24,7 +24,7 @@ sameer@github:~$ cat focus.txt
 - 🤖 **Agent systems in production** — Copilot Agent Mode at enterprise scale, agentic code migration, multi-agent workflows on Azure
 - 🧪 **Eval-first engineering** — the harness that catches the lies before the customer does
 - 🛡️ **AI safety as engineering practice** — containment, audit trails, kill switches, scalable oversight
-- ⚙️ **The boring layer that matters** — Azure OpenAI, Cosmos DB, GPU infra, CI/CD, IaC governance
+- ⚙️ **Distributed systems & the boring layer that matters** — Kubernetes at scale, Cosmos DB & MongoDB, GPU infra, CI/CD, IaC governance
 
 ```console
 sameer@github:~$ ls ~/building/
@@ -43,7 +43,7 @@ sameer@github:~$ ls ~/building/
 sameer@github:~$ cat stack.txt
 ```
 
-`Python` `TypeScript` `Go` · `Azure OpenAI` `Cosmos DB` `AKS` `GPU infra` · `GitHub Copilot Agent Mode` `LangGraph` `OpenTelemetry` · `Bicep` `Terraform` `GitHub Actions`
+`Python` `TypeScript` `Go` · `Kubernetes / AKS` `distributed systems` `GPU infra` · `Cosmos DB` `MongoDB` `Postgres + pgvector` · `Azure OpenAI` `GitHub Copilot Agent Mode` `LangGraph` `OpenTelemetry` · `Bicep` `Terraform` `GitHub Actions`
 
 ```console
 sameer@github:~$ cat trajectory.txt
