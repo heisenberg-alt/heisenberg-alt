@@ -4,7 +4,7 @@
 sameer@github:~$ whoami
 ```
 
-# Sameer Ankalgi
+# Sameer Ankalgi <sub><sup>aka</sup></sub> 𝔥𝔢𝔦𝔰𝔢𝔫𝔟𝔢𝔯𝔤
 
 **Senior Software Solution Engineer · Cloud & AI · Microsoft · Zürich**
 
