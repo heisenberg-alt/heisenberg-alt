@@ -49,8 +49,9 @@ sameer@github:~$ cat stack.txt
 sameer@github:~$ cat trajectory.txt
 ```
 
-**Microsoft** (Cloud & AI, 2023→) ← **BCG** ← **PwC** ← software developer.
-The through-line: understand the business pressure, then build the system that survives it.
+**Microsoft** — Senior Software Solution Engineer, Cloud & AI (2023→) ← **BCG** — tech in strategy's clothing ← **PwC** — digital engineering ← software engineer.
+
+A decade of hands-on engineering. The titles grew; the terminal never closed.
 
 ```console
 sameer@github:~$ echo $LOCATION
