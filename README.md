@@ -49,7 +49,7 @@ sameer@github:~$ cat stack.txt
 sameer@github:~$ cat trajectory.txt
 ```
 
-**Microsoft** — Senior Software Solution Engineer, Cloud & AI (2023→) ← **BCG** — tech in strategy's clothing ← **PwC** — digital engineering ← software engineer.
+**Microsoft** — Senior Software Solution Engineer, Cloud & AI (2024→) ← **BCG** — tech in strategy's clothing ← **PwC** — digital engineering ← software engineer.
 
 A decade of hands-on engineering. The titles grew; the terminal never closed.
 
