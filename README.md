@@ -1,8 +1,3 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&height=140&color=0:0d110d,50:2f5d28,100:84e98a&section=header" />
-  <img alt="" width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=140&color=0:faf8f4,50:8fc985,100:3d6b35&section=header" />
-</picture>
-
 <div align="center">
 
 ```
@@ -106,6 +101,6 @@ sameer@github:~$ ./contribution-snake --replay
 </div>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&height=110&color=0:84e98a,50:2f5d28,100:0d110d&section=footer" />
-  <img alt="" width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=110&color=0:3d6b35,50:8fc985,100:faf8f4&section=footer" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/rule-dark.svg" />
+  <img alt="" width="100%" height="3" src="assets/rule-light.svg" />
 </picture>
