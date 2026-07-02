@@ -1,3 +1,8 @@
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&height=140&color=0:0d110d,50:2f5d28,100:84e98a&section=header" />
+  <img alt="" width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=140&color=0:faf8f4,50:8fc985,100:3d6b35&section=header" />
+</picture>
+
 <div align="center">
 
 ```
@@ -70,3 +75,8 @@ sameer@github:~$ █
 *My site has a working terminal — type `help` at [sameerankalgi.com](https://sameerankalgi.com)*
 
 </div>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&height=110&color=0:84e98a,50:2f5d28,100:0d110d&section=footer" />
+  <img alt="" width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=110&color=0:3d6b35,50:8fc985,100:faf8f4&section=footer" />
+</picture>
