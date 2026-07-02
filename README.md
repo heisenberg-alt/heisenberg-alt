@@ -11,7 +11,10 @@ sameer@github:~$ whoami
 
 # Sameer Ankalgi
 
-### ∣ ℎ𝑒𝑖𝑠𝑒𝑛𝑏𝑒𝑟𝑔 ⟩
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/ket-dark.svg" />
+  <img alt="∣ heisenberg ⟩ — in superposition with ∣ sameer ⟩" src="assets/ket-light.svg" />
+</picture>
 
 **Senior Software Solution Engineer · Cloud & AI · Microsoft · Zürich**
 
@@ -27,7 +30,10 @@ sameer@github:~$ whoami
 
 </div>
 
----
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/rule-dark.svg" />
+  <img alt="" width="100%" height="3" src="assets/rule-light.svg" />
+</picture>
 
 ```console
 sameer@github:~$ cat focus.txt
@@ -52,6 +58,14 @@ sameer@github:~$ ls ~/building/
 | [**acs-pipeline-lab**](https://github.com/heisenberg-alt/acs-pipeline-lab) | ship governed agents with Agent Control Spec, sandboxes & memory (Build 2026) |
 
 ```console
+sameer@github:~$ tail -f building.log
+```
+
+<!--BUILDING:START-->
+→ latest push: [**octerse**](https://github.com/heisenberg-alt/octerse) — less prose, more PRs · `2026-06`
+<!--BUILDING:END-->
+
+```console
 sameer@github:~$ cat stack.txt
 ```
 
@@ -70,6 +84,15 @@ sameer@github:~$ echo $LOCATION
 ```
 
 📍 Zürich, Switzerland `47°22′28″N 08°32′28″E` — hackathon freak, espresso-powered, spirit animal: 🐈‍⬛
+
+```console
+sameer@github:~$ ./contribution-snake --replay
+```
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/heisenberg-alt/heisenberg-alt/output/github-snake-dark.svg" />
+  <img alt="contribution snake" width="100%" src="https://raw.githubusercontent.com/heisenberg-alt/heisenberg-alt/output/github-snake.svg" />
+</picture>
 
 <div align="center">
 

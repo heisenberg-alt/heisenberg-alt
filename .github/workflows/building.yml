@@ -1,0 +1,35 @@
+name: refresh building log
+
+on:
+  schedule:
+    - cron: "47 3 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Update latest-push line between markers
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          repo_json=$(gh api "users/heisenberg-alt/repos?sort=pushed&per_page=10" \
+            --jq '[.[] | select(.fork == false)][0]')
+          name=$(echo "$repo_json" | jq -r .name)
+          url=$(echo "$repo_json" | jq -r .html_url)
+          desc=$(echo "$repo_json" | jq -r '.description // "no description yet"')
+          pushed=$(echo "$repo_json" | jq -r .pushed_at | cut -dT -f1)
+          line="→ latest push: [**${name}**](${url}) — ${desc} · \`${pushed}\`"
+          perl -0pi -e "s|<!--BUILDING:START-->.*<!--BUILDING:END-->|<!--BUILDING:START-->\n${line}\n<!--BUILDING:END-->|s" README.md
+          if ! git diff --quiet; then
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git commit -am "chore: refresh building log"
+            git push
+          fi

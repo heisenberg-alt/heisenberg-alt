@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="34" viewBox="0 0 360 34" role="img" aria-label="heisenberg, in superposition with sameer">
+  <style>text { font-family: Georgia, "Times New Roman", serif; font-size: 21px; fill: #84e98a; }</style>
+  <text x="50%" y="24" text-anchor="middle">∣ ℎ𝑒𝑖𝑠𝑒𝑛𝑏𝑒𝑟𝑔 ⟩
+    <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.42;0.5;0.92;1" dur="12s" repeatCount="indefinite"/>
+  </text>
+  <text x="50%" y="24" text-anchor="middle" opacity="0">∣ 𝑠𝑎𝑚𝑒𝑒𝑟 ⟩
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.42;0.5;0.92;1" dur="12s" repeatCount="indefinite"/>
+  </text>
+</svg>
