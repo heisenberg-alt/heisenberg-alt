@@ -11,7 +11,7 @@ sameer@github:~$ whoami
 *I build enterprise AI agents — and the eval loops, safety rails, and audit trails*
 *that let them actually ship.*
 
-[Website](https://sameerankalgi.com) · [LinkedIn](https://www.linkedin.com/in/sameerankalgi) · [Email](mailto:hello@sameerankalgi.com)
+[Website](https://sameerankalgi.com) · [LinkedIn](https://www.linkedin.com/in/sameerankalgi) · [Email](mailto:sameerankalgi@gmail.com)
 
 </div>
 
