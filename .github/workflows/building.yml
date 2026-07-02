@@ -25,8 +25,8 @@ jobs:
           url=$(echo "$repo_json" | jq -r .html_url)
           desc=$(echo "$repo_json" | jq -r '.description // "no description yet"')
           pushed=$(echo "$repo_json" | jq -r .pushed_at | cut -dT -f1)
-          line="→ latest push: [**${name}**](${url}) — ${desc} · \`${pushed}\`"
-          perl -0pi -e "s|<!--BUILDING:START-->.*<!--BUILDING:END-->|<!--BUILDING:START-->\n${line}\n<!--BUILDING:END-->|s" README.md
+          export LINE="→ latest push: [**${name}**](${url}) — ${desc} · \`${pushed}\`"
+          perl -0pi -e 's|<!--BUILDING:START-->.*<!--BUILDING:END-->|<!--BUILDING:START-->\n$ENV{LINE}\n<!--BUILDING:END-->|s' README.md
           if ! git diff --quiet; then
             git config user.name "github-actions[bot]"
             git config user.email "github-actions[bot]@users.noreply.github.com"
